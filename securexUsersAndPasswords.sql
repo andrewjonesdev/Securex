@@ -25,3 +25,6 @@ INSERT INTO authorities (username,authority) VALUES (1000,"admin"),(1001,"admin"
 
 show create table users;
 
+INSERT INTO users (username,password) VALUES ("bob","ajbobthebobgod");
+INSERT INTO authorities (username,authority) VALUES ("bob","user");
+
